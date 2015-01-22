@@ -1,0 +1,410 @@
+{
+    "act_coe": {
+        "code": [
+            "act_coe"
+        ],
+        "label": [
+            "coefficient global"
+        ],
+        "description": [
+            "Une partie des actes de soins est décrite par\n•Une lettre clé qui varie selon les professions et catégories d'actes et qui a une valeur unitaire\n•Un coefficient qui reflète la complexité de l'acte, et qui, multiplié par la valeur unitaire de la lettre clé, donne le tarif de l'acte. \nCeci est notamment le cas des actes techniques médicaux et des actes d'auxilaires médicaux (infirmier, kiné, ...)\nPar exemple, un pansement lourd exécuté par un infirmier est côté AMI 4 soit une base de remboursement de 3,15 (valeur conventionnelle AMI)*4=12,6 euros"
+        ]
+    },
+    "act_dnb": {
+        "code": [
+            "act_dnb"
+        ],
+        "label": [
+            "dénombrement"
+        ],
+        "description": [
+            "Une partie des actes peut être dénombrée car codifiée avec un code qui permet de connaître directement la nature exacte et le tarif de l'acte (CCAM).\nC'est par exemple le cas des consultations,"
+        ]
+    },
+    "asu_nat": {
+        "code": [
+            "asu_nat"
+        ],
+        "label": [
+            "nature d'assurance"
+        ],
+        "description": [
+            "Risque au titre duquel est prise en charge la prestation: Maladie, Maternité, Accident du Travail-Maladie Professionnelle, Invalidité, Décès"
+        ]
+    },
+    "ben_qlt": {
+        "code": [
+            "ben_qlt"
+        ],
+        "label": [
+            "qualité du bénéficiaire"
+        ],
+        "description": [
+            "Cette variable distingue les bénéficaires assuré, conjoint et enfant."
+        ]
+    },
+    "cpam": {
+        "code": [
+            "cpam"
+        ],
+        "label": [
+            "cpam d'affiliation du bénéficiaire"
+        ],
+        "description": [
+            "Numéro de la Caisse Primaire d'Assurance Maladie de rattachement du bénéficaire des soins"
+        ]
+    },
+    "cpl_cod": {
+        "code": [
+            "cpl_cod"
+        ],
+        "label": [
+            "complement d'acte"
+        ],
+        "description": [
+            "Cette variable permet de toper les suppléments tarifés, ajouté au montant de l’acte lorsqu'il est réalisé dans un contexte spécifique ( majoration de nuit, de dimanche ou jour férié, urgence) \n"
+        ]
+    },
+    "dep_mon": {
+        "code": [
+            "dep_mon"
+        ],
+        "label": [
+            "dépassement d'honoraires"
+        ],
+        "description": [
+            "On parle de montant de dépassement lorsque les prix pratiqués par les professionnels de santé sont supérieurs aux tarifs de convention fixés pour chaque acte médical par la sécurité sociale. Les dépassements d'honoraires peuvent être pris en charge par les complémentaires santé. Cette notion ne concerne que les honoraires des médecins."
+        ]
+    },
+    "dpt": {
+        "code": [
+            "dpt"
+        ],
+        "label": [
+            "département d'affiliation du bénéficiaire"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "exe_spe": {
+        "code": [
+            "exe_spe"
+        ],
+        "label": [
+            "spécialité exécutant"
+        ],
+        "description": [
+            "Spécialité exercée par le médecin (généraliste, cardiologue, etc), nature d'activité des auxilaires médicaux (infirmiers, masseurs-kinésithérapeutes)..."
+        ]
+    },
+    "exe_spe1": {
+        "code": [
+            "exe_spe1"
+        ],
+        "label": [
+            "regroupement spécialité exécutant"
+        ],
+        "description": [
+            "Spécialité regroupée par grande catégorie d'exécutant: médecins omnipraticiens, médecins spécialistes,… Cette notion ne concerne que les  médecins."
+        ]
+    },
+    "exe_stj1": {
+        "code": [
+            "exe_stj1"
+        ],
+        "label": [
+            "mode d'exercice exécutant"
+        ],
+        "description": [
+            "Statut du professionnel de santé sur sa manière d'exercer: libéral ou salarié \n"
+        ]
+    },
+    "l_asu_nat": {
+        "code": [
+            "l_asu_nat"
+        ],
+        "label": [
+            "libellé assurance"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_ben_qlt": {
+        "code": [
+            "l_ben_qlt"
+        ],
+        "label": [
+            "libellé qualité du bénéficiaire"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_cpam": {
+        "code": [
+            "l_cpam"
+        ],
+        "label": [
+            "libellé cpam d'affiliation du bénéficiaire"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_cpl_cod": {
+        "code": [
+            "l_cpl_cod"
+        ],
+        "label": [
+            "libellé du complément d'acte"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_dpt": {
+        "code": [
+            "l_dpt"
+        ],
+        "label": [
+            "libellé du département d'affiliation du bénéficiaire"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_exe_spe": {
+        "code": [
+            "l_exe_spe"
+        ],
+        "label": [
+            "libellé spécialité exécutant"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_exe_spe1 ": {
+        "code": [
+            "l_exe_spe1 "
+        ],
+        "label": [
+            "libellé regroupement spécialité exécutant"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_exe_stj1": {
+        "code": [
+            "l_exe_stj1"
+        ],
+        "label": [
+            "libellé mode d'exercice exécutant"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_pre_spe": {
+        "code": [
+            "l_pre_spe"
+        ],
+        "label": [
+            "libellé spécialité prescripteur"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_pre_spe1": {
+        "code": [
+            "l_pre_spe1"
+        ],
+        "label": [
+            "libelle regroupement spécialité prescripteur"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_pre_stj1": {
+        "code": [
+            "l_pre_stj1"
+        ],
+        "label": [
+            "libellé mode d'exercice prescripteur"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_prs_nat": {
+        "code": [
+            "l_prs_nat"
+        ],
+        "label": [
+            "libellé prestation"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_region": {
+        "code": [
+            "l_region"
+        ],
+        "label": [
+            "libellé région d'affiliation du bénéficiaire"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_serie": {
+        "code": [
+            "l_serie"
+        ],
+        "label": [
+            "libellé de la série Statistique Mensuelle"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "l_top_slm": {
+        "code": [
+            "l_top_slm"
+        ],
+        "label": [
+            "libellé Top Sections Locales Mutualistes"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "pre_spe": {
+        "code": [
+            "pre_spe"
+        ],
+        "label": [
+            "spécialité prescripteur"
+        ],
+        "description": [
+            "Spécialité exercée par le médecin (généraliste, cardiologue, etc), nature d'activité des auxilaires médicaux (infirmiers, masseurs-kinésithérapeutes)"
+        ]
+    },
+    "pre_spe1": {
+        "code": [
+            "pre_spe1"
+        ],
+        "label": [
+            "regroupement spécialité prescripteur"
+        ],
+        "description": [
+            "Spécialité regroupée par grande catégorie de prescripteur: médecins omnipraticiens, médecins spécialistes, chirurgiens dentiste, …"
+        ]
+    },
+    "pre_stj1": {
+        "code": [
+            "pre_stj1"
+        ],
+        "label": [
+            "mode d'exercice prescripteur"
+        ],
+        "description": [
+            "Statut du professionnel de santé sur sa manière d'exercer: libéral ou salarié \n"
+        ]
+    },
+    "prs_nat": {
+        "code": [
+            "prs_nat"
+        ],
+        "label": [
+            "prestation"
+        ],
+        "description": [
+            "Chaque prestation est codifiée par un code à 4 chiffres dans le SNIIRAM.  Une prestation est un acte réalisé par professionnel de santé (médécin, auxiliaire, …) ou un produit de santé (médicament, prothèse, ..) pris en charge par l'assurance maladie.  Cela peut être également un versement de prestation en espèces (indemnités journalières dans le cas d'un arrêt maladie, rente d'accident du travail, pension d'invalidité)...\n"
+        ]
+    },
+    "rec_mon": {
+        "code": [
+            "rec_mon"
+        ],
+        "label": [
+            "base de remboursement"
+        ],
+        "description": [
+            " La base de remboursement correspond au montant pris en considération par l’Assurance Maladie avant application du taux de remboursement. C'est le tarif conventionnel pour les Professionnels de Santé. Exemple : pour une consultation de médecin généraliste la base de remboursement est de 23€ et le taux de remboursement est de 70% (si vous avez un médecin traitant) sauf pour les personnes en affection longue durée 100%.\n"
+        ]
+    },
+    "region": {
+        "code": [
+            "region"
+        ],
+        "label": [
+            "région d'affiliation du bénéficiaire"
+        ],
+        "description": [
+            null
+        ]
+    },
+    "rem_mon ": {
+        "code": [
+            "rem_mon "
+        ],
+        "label": [
+            "montant remboursé"
+        ],
+        "description": [
+            "Montant que l’Assurance Maladie rembourse à l’assuré : (base de remboursement * taux de remboursement).\n"
+        ]
+    },
+    "rem_tau": {
+        "code": [
+            "rem_tau"
+        ],
+        "label": [
+            "taux de remboursement"
+        ],
+        "description": [
+            "Le taux de remboursement de la sécurité sociale est le taux sur lequel cet organisme se base pour effectuer ses remboursements. Il s'applique sur le tarif conventionnel et varie en fonction de l'acte médical et du régime obligatoire de l'assuré social, et de la situation de l'assuré."
+        ]
+    },
+    "serie": {
+        "code": [
+            "serie"
+        ],
+        "label": [
+            "série de la Statistique Mensuelle"
+        ],
+        "description": [
+            "Une série de la Statistique Mensuelle est un poste de dépenses obtenu par croisement de la prestation et de la spécialité exécutant. Pour ce qui concerne le médicament, un croisement est également opéré avec le taux de remboursement "
+        ]
+    },
+    "sns_date": {
+        "code": [
+            "sns_date"
+        ],
+        "label": [
+            "mois et année des soins"
+        ],
+        "description": [
+            "Mois et année  auxquels le prestataire de soins a executé un acte ou délivré un produit:\n•C (consultation), V (visite à domicile) pour un médecin; \n•Médicaments pour un pharmacien;\n•etc.\nPour les prestations en espèces : mois et année de début de la période de versement."
+        ]
+    },
+    "top_slm": {
+        "code": [
+            "top_slm"
+        ],
+        "label": [
+            "Top Sections Locales Mutualistes"
+        ],
+        "description": [
+            "Permet de toper les remboursements relevant des Sections Locales Mutualistes (Mutuelle des Étudiants, Mutuelle Générale de l'Education Nationale…)"
+        ]
+    }
+}
+
